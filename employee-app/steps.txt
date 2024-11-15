@@ -1,0 +1,16 @@
+Backend:
+    1. in cmd , npm init -y (to initialise package.json)
+    2. npm install mongoose express cors (install relevent packages)
+    3. in package.json file change "script: ...." to "start: node server.js"
+    4. or if u want to use nodemon for automatic running of server.js file after saving, give "start: nodemon server.js" and give npm i nodemon before this step to install this package
+    5. create server.js in backend
+    6. add relevent code
+    7. start running backend using "node server.js"
+
+Frontend:
+    1. create app using "npx create-react-app frontend"
+    2. to use axios for react api calls "npm i axios"
+    3. add relevent files and code
+    4. start app by "npm start" 
+    
+    
